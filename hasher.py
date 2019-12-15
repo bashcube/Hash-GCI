@@ -147,10 +147,10 @@ def sha384 (choice, inp, passlist):
             menu()
 
 def sha512 (choice, inp, passlist):
-        print_enc(inp, output)
         if choice == 0:
             m = hashlib.sha512(inp.encode("utf-8"))
             output = m.hexdigest()
+	    print_enc(inp, output)
             menu()
         if choice == 1:
             cracking()
