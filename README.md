@@ -1,4 +1,4 @@
-# HASH-CRACK
+# HASHER/CRACK
 
 * ## Requirements:
   You should have python3 installed on your local machine.
