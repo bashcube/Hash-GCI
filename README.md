@@ -1,16 +1,21 @@
-# HASH-CRACK
+# HASHER/CRACK
 
 * ## Requirements:
-  You should have python installed on your local machine.
+  You should have python3 installed on your local machine.
   ```bash
-  $ apt install python
+  $ sudo apt install python
   ```
+  For Fedora Users-
+  ```bash
+  $ sudo dnf install python
+   ```
   
 * ## Usage:
   Clone into this repo using command:
   ```bash
   $ git clone https://github.com/bashcube/Hash-GCI.git
   ```
+  
   Run the code using command:
   ```bash
   $ cd Hash-GCI
@@ -35,8 +40,8 @@
   ```
   
  * ## Description:
-   The following python code uses python library hashlib to 
-   hash string provided by the user at runtime.
+   The program uses python hashlib to hash strings provided by
+   user at runtime.
    The code not only hashes the string but also cracks them
    using bruteforce technique.In order to check what type of
    hash you want to decrypt , run the hash against the program:

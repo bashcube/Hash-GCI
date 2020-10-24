@@ -212,5 +212,7 @@ def menu():
         sha384(choice, inp, passlist)
     if value == 6:
         sha512(choice, inp, passlist)
-
-menu()
+	
+	
+if __name__ == '__main___':
+	menu()
